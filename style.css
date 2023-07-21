@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    margin: 10px 20px;
+}
+
+.container {
+    background-color: beige;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.head {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: green;
+    border-radius: 3px;
+    width: 30%;
+    color: whitesmoke;
+}
