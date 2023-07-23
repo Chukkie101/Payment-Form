@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        h1 {
+            color: black;
+        }
+    </style>
+    
+    <body>
+        <div class="container">
+       <form action="methods">
+            <h1 class="head"> Payment Form </h1>
+            <hr>
+            <h2>Contact Details</h2>
+            <p>Name: * <input type="text" name="name" required></p>
+            <fieldset>
+                <legend>Gender</legend>
+                <p>
+                    Male<input type="radio" name="gender" id="male" />Female <input type="radio"
+                    name="gender" id="female" />
+                </p>
+            </fieldset>
+            <p>Address: </p>
+            <textarea name="address" id="address" cols="50" rows="10"></textarea>
+            <P>Email:<input type="email" name="email" id="email" value="" /></P>
+            <p>Pincode: <input type="number" name="pincode" id="pincode" value="" /></p>
+            <h2>Account Details</h2>
+            <p>Card Type
+              <select name="card_type" id="card_type">
+                <option value="">---Select a Card---</option>
+                <option value="visa">visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="union pay">Union Pay</option>
+                <option value="American eagle">American eagle</option>
+              </select>
+            </p>
+            <p>Card Number: <input type="number" name="card_number" id="card_number" value="" />
+            </p>
+            <p> Expiry Date: <input type="date" name="exp_date" id="exp_date" value="" /></p>
+            <p>CVV: <input type="password" name="cvv" id="cvv" value="" /></p>
+            <input type="submit" name="submit" id="submit" value="Pay Now" />
+            <input type="reset" name="reset" id="reset" value="reset" />
+        </form>
+
+
+            </div>
+
+        </div>
+    </body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
